@@ -72,7 +72,6 @@ body {
 
 #data-bar {
     width: 100%;
-    /* height: 50px; */
     background-color: #555;
     padding: 10px;
     position: fixed;
@@ -87,7 +86,6 @@ body {
 .combo-search-item {
     font-size: 1.1rem;
     margin: 5px;
-    /* padding: 5px; */
     background: linear-gradient(90deg, lightyellow, gold);
     background-clip: text;
     -webkit-background-clip: text;
