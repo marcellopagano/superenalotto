@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperEnalotto</title>
+    <link rel="stylesheet" href="./src/superenalotto.css">
+</head>
+
+<body>
+
+    <div id="data-bar">
+        <select name="data-json" id="data-json">
+            <option value="slotto1939-2023.json">archivio 1939-2023</option>
+            <option value="slotto1997-2023.json" selected>archivio 1997-2023</option>
+        </select>
+        <select name="data-range" id="data-range">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+        <input type="text" name="combo-search-text" id="combo-search-text" placeholder="1-2-3-4-5-6">
+        <button type="button" id="combo-search-btn">cerca combo</button>
+        <div id="combo-search-result">
+            <!-- <span class="combo-search-item">&starf;&starf;0</span>
+            <span class="combo-search-item">&starf;&starf;&starf;0</span>
+            <span class="combo-search-item">&starf;&starf;&starf;&starf;0</span>
+            <span class="combo-search-item">&starf;&starf;&starf;&starf;&starf;0</span>
+            <span class="combo-search-item">&starf;&starf;&starf;&starf;&starf;&starf;0</span> -->
+        </div>
+
+    </div>
+    <div id="app"></div>
+
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
